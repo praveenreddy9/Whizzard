@@ -1,0 +1,19 @@
+{
+    "logs": [
+        {
+            "outputFile": "/Users/apple/Desktop/fresh/duplicate/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "map": [
+                {
+                    "source": "/Users/apple/.gradle/caches/transforms-3/dc89187141d1dc7954263f06cc582d9c/transformed/jetified-ucrop-2.2.5-native/res/values-zh/values-zh.xml",
+                    "from": {
+                        "startLines": "2,3,4",
+                        "startColumns": "4,4,4",
+                        "startOffsets": "55,109,163",
+                        "endColumns": "53,53,46",
+                        "endOffsets": "104,158,205"
+                    }
+                }
+            ]
+        }
+    ]
+}

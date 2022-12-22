@@ -1,0 +1,14 @@
+com/whizzard/BuildConfig.java
+ com.whizzard.BuildConfig
+com/whizzard/MainApplication.java
+ com.whizzard.MainApplication
+ com.whizzard.MainApplication$1
+com/whizzard/ReactNativeFlipper.java
+ com.whizzard.ReactNativeFlipper
+ com.whizzard.ReactNativeFlipper$1
+ com.whizzard.ReactNativeFlipper$2
+ com.whizzard.ReactNativeFlipper$2$1
+com/whizzard/MainActivity.java
+ com.whizzard.MainActivity
+com/facebook/react/PackageList.java
+ com.facebook.react.PackageList

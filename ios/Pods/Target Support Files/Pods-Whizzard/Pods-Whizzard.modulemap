@@ -1,0 +1,6 @@
+module Pods_Whizzard {
+  umbrella header "Pods-Whizzard-umbrella.h"
+
+  export *
+  module * { export * }
+}
