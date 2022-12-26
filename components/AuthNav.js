@@ -55,7 +55,6 @@ class AuthNav extends Component {
   }
 
   onIds(device) {
-    // console.warn('AuthNav id===',device.userId);
     if (device.userId) {
       Utils.setToken('DEVICE_ID', device.userId, function () {});
     }
@@ -65,7 +64,6 @@ class AuthNav extends Component {
   // installationId(DEVICE_ID) {
   UpdateMobileDetails() {
     const apiURL = Config.routes.BASE_URL + Config.routes.UPDATE_MOBILE_DETAILS;
-    // console.log('Update MobileDetails DeviceInfo',DeviceInfo)
     const body = JSON.stringify({
       // DEVICE_ID: DEVICE_ID,
       brand: DeviceInfo.getBrand(),
@@ -73,7 +71,6 @@ class AuthNav extends Component {
       type: DeviceInfo.getSystemName(),
       getDeviceId: DeviceInfo.getDeviceId(),
     });
-    // console.log('Update MobileDetails body',body)
     Services.AuthHTTPRequest(
       apiURL,
       'PUT',
@@ -104,7 +101,6 @@ class AuthNav extends Component {
     const self = this;
     const apiURL =
       Config.routes.BASE_URL + Config.routes.APP_UPDATE_NUMBER_WITHOUT_TOKEN;
-    console.log('check App update start==============');
     axios(apiURL, {
       method: 'GET',
       headers: {
@@ -119,7 +115,6 @@ class AuthNav extends Component {
           let responseData = response.data;
           // requireMockLocationCheck
           //criticalUpdate
-          console.log('check App update response',responseData);
           Utils.setToken(
             'requireMockLocationCheck',
             JSON.stringify(responseData.requireMockLocationCheck),
@@ -139,7 +134,7 @@ class AuthNav extends Component {
         }
       })
       .catch(function (error) {
-        console.log('check App update error', error, error.response);
+        // console.log('check App update error', error, error.response);
         // self.props.navigation.navigate('Login');
         if (error.response) {
           if (error.response.status === 403) {
@@ -161,20 +156,9 @@ class AuthNav extends Component {
   }
 
   checkSession() {
-    // this.getItem().then((accessToken) => {
-    //     if (accessToken) {
-    //         // this.getUserStatus(accessToken)
-    //         // this.UpdateMobileDetails()
-    //     } else {
-    //         this.props.navigation.navigate('Login');
-    //     }
-    // });
-
     AsyncStorage.getItem('Whizzard:token').then(accessToken => {
-      console.log('AUTH start token',accessToken);
       if (accessToken) {
         AsyncStorage.getItem('Whizzard:userStatus').then(userStatus => {
-          console.log('AUTHNAV inside userStatus',userStatus)
           //ACTIVATED
 
           if (
@@ -211,7 +195,6 @@ class AuthNav extends Component {
     })
       .then(function (response) {
         if (response.status === 200) {
-          // console.log('AUTHNAV getUser Status success', response.data)
           const data = response.data;
           Utils.setToken('userStatus', data.status, function () {});
           Utils.setToken(

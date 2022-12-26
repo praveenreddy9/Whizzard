@@ -31,7 +31,6 @@ export class MyVouchers extends Component {
 
     errorHandling(error) {
         const self = this;
-        console.log("error", error, error.response);
         if (error.response) {
             if (error.response.status === 403) {
                 self.setState({spinnerBool: false});
@@ -58,9 +57,9 @@ export class MyVouchers extends Component {
         const apiUrl = Config.routes.BASE_URL + Config.routes.GET_MY_VOUCHERS;
         const body = {'deleted': false};
         this.setState({spinnerBool: true}, () => {
-            Services.AuthHTTPRequest(apiUrl, 'POST', body, function (response) {
+            Services.AuthHTTPRequestForShiftFlow(apiUrl, 'POST', body, function (response) {
                 if (response.status === 200) {
-                    console.log("All Vouchers", response);
+                    // console.log("All Vouchers", response);
                     self.setState({spinnerBool: false, allVouchers: response.data.content})
                 }
             }, function (error) {
@@ -74,9 +73,8 @@ export class MyVouchers extends Component {
         const apiUrl = Config.routes.BASE_URL + Config.routes.GET_CREATEDBYME_VOUCHERS;
         const body = {'deleted': false};
         this.setState({spinnerBool: true}, () => {
-            Services.AuthHTTPRequest(apiUrl, 'POST', body, function (response) {
+            Services.AuthHTTPRequestForShiftFlow(apiUrl, 'POST', body, function (response) {
                 if (response.status === 200) {
-                    console.log("GET_CREATEDBYME_VOUCHERS", response);
                     self.setState({spinnerBool: false, allVouchers: response.data.content})
                 }
             }, function (error) {
@@ -85,34 +83,13 @@ export class MyVouchers extends Component {
         })
     }
 
-    updateVoucher() {
-
-    }
-
-    // getVoucherDetails(voucherId) {
-    //     console.log('voucherid', voucherId)
-    //     const self = this;
-    //     const apiUrl = Config.routes.BASE_URL + Config.routes.GET_VOUCHERS_DETAILS + voucherId;
-    //     const body = {};
-    //     this.setState({spinnerBool: true}, () => {
-    //         Services.AuthHTTPRequest(apiUrl, 'GET', body, function (response) {
-    //             if (response.status === 200) {
-    //                 console.log("Voucher Deatials", response);
-    //                 self.setState({spinnerBool: false, voucherData: response.data})
-    //             }
-    //         }, function (error) {
-    //             self.errorHandling(error);
-    //         })
-    //     })
-    // }
-
     render() {
         return (
             <View style={[Styles.containerStyle]}>
                 <OfflineNotice/>
                 {this.renderSpinner()}
                 <View style={[Styles.appbarBorder]}>
-                    <Appbar.Header style={[Styles.bgWhite,]}>
+                    <Appbar.Header style={[Styles.bgDarkRed,]}>
                         <Appbar.Action icon="chevron-left" size={30} onPress={() => {
                             this.props.navigation.goBack()
                         }}/>
@@ -301,9 +278,7 @@ export class MyVouchers extends Component {
                                 : null
                             }
                             {this.state.editable ?
-                                <TouchableOpacity style={[Styles.marV30]} onPress={() => {
-                                    this.updateVoucher()
-                                }}>
+                                <TouchableOpacity style={[Styles.marV30]}>
                                     <View
                                         style={[Styles.mTop20, Styles.mBtm20, {backgroundColor: '#C91A1F'}]}>
                                         <Text

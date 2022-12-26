@@ -70,6 +70,7 @@ export default class ScanQRcode extends React.Component {
             const granted = request(Platform.OS === 'ios' ?
                 PERMISSIONS.IOS.CAMERA :
                 PERMISSIONS.ANDROID.CAMERA).then(async (result) => {
+                    console.log('camera perm result',result);
                 // setPermissionResult(result)
                 if ('granted' === result) {
                         this.setState({QRVisible: true, granted: granted})
@@ -628,20 +629,6 @@ export default class ScanQRcode extends React.Component {
         });
     };
 
-
-    takePicture = async () => {
-        if (this.camera) {
-            const options = { quality: 0.5, base64: true };
-            const data = await this.camera.takePictureAsync(options);
-            console.log(data.uri);
-        }
-    };
-
-    handleFaceDetected = faceArray => {
-        console.log('faceArray detected',faceArray)
-        Vibration.vibrate()
-    };
-
     render() {
         return (
             <View style={[Styles.flex1, Styles.bgWhite]}>
@@ -939,19 +926,19 @@ export default class ScanQRcode extends React.Component {
                                 {
                                     this.state.granted && this.state.QRVisible === true
                                         ?
-                                        // <QRCodeScanner
-                                        //     onRead={this.barcodeReceived.bind(this)}
-                                        //     style={{flex: 1}}
-                                        //     cameraStyle={{height: Dimensions.get('window').height}}
-                                        //     showMarker={false}
-                                        //     fadeIn={false}
-                                        //     reactivate={true}
-                                        //     cameraType={"back"}
-                                        // />
-                                        <View style={{backgroundColor: '#000', flex: 1}}>
-                                            <Text>No QR CODE
-                                            </Text>
-                                        </View>
+                                        <QRCodeScanner
+                                            onRead={this.barcodeReceived.bind(this)}
+                                            style={{flex: 1}}
+                                            cameraStyle={{height: Dimensions.get('window').height}}
+                                            showMarker={false}
+                                            fadeIn={false}
+                                            reactivate={true}
+                                            cameraType={"back"}
+                                        />
+                                        // <View style={{backgroundColor: '#000', flex: 1}}>
+                                        //     <Text>No QR CODE
+                                        //     </Text>
+                                        // </View>
                                         :
                                         <View style={{backgroundColor: '#000', flex: 1}}>
                                             <Text>No QR CODE
@@ -963,26 +950,6 @@ export default class ScanQRcode extends React.Component {
                             <CSpinner/>
                 }
             </View>
-
-            // <View style={styles.container}>
-            //     <RNCamera
-            //         style={styles.preview}
-            //         type={RNCamera.Constants.Type.back}
-            //         flashMode={RNCamera.Constants.FlashMode.on}
-            //         // faceDetectionMode={RNCamera.Constants.FaceDetection.Mode.accurate}
-            //         // faceDetectionMode={RNCamera.Constants.FaceDetection.Landmarks.none}
-            //         // faceDetectionMode={RNCamera.Constants.FaceDetection.Classifications.none}
-            //         onFacesDetected={this.handleFaceDetected}
-            //         faceDetectionMode={RNCamera.Constants.FaceDetection.Mode.accurate}
-            //         faceDetectionClassifications={RNCamera.Constants.FaceDetection.Classifications.all}
-            //         faceDetectionLandmarks={RNCamera.Constants.FaceDetection.Classifications.all}
-            //     />
-            //     {/*<View style={{ flex: 0, flexDirection: 'row', justifyContent: 'center' }}>*/}
-            //     {/*    <TouchableOpacity onPress={()=>this.takePicture.bind(this)} style={styles.capture}>*/}
-            //     {/*        <Text style={{ fontSize: 14 }}> SNAP </Text>*/}
-            //     {/*    </TouchableOpacity>*/}
-            //     {/*</View>*/}
-            // </View>
         );
     }
 }

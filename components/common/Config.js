@@ -31,13 +31,15 @@ const routes = {
     APP_VERSION_NUMBER:'2.5.45', //2.5.65 is Admin // 2.5.62 is MLL //2.5.45 is test //2.5.13 is jeevan/sai
 
     showAPKDate:true,
-    APK_DATA:'22-Dec-2022',
+    APK_DATA:'26-Dec-2022',
 
     // SOCKET_URL : io("http://192.168.29.126:5010"),        //DP /tech
     // SOCKET_URL : io("http://192.168.0.115:5010"),        //DP /tech2
 
-    SOCKET_URL : io(""),
-    SOCKET_BASE_URL :"",
+    SOCKET_URL :Platform.OS === 'ios' ? io("https://trackapi.whizzard.in") : io("http://trackapi.whizzard.in"),
+    SOCKET_BASE_URL :Platform.OS === 'ios' ? "https://trackapi.whizzard.in" : "http://trackapi.whizzard.in",
+    // SOCKET_URL : io(""),
+    // SOCKET_BASE_URL :"",
     // SOCKET_BASE_URL : "http://192.168.29.157:5010",  //sravan IP 2.4
     // SOCKET_BASE_URL : "http://192.168.0.106:5010",  //nikhil IP Tech2
 

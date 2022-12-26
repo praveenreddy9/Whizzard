@@ -86,7 +86,7 @@ export default class Settings extends React.Component {
                 const body = {userId: userId};
                 // console.log('logout body', body);
                 this.setState({spinnerBool: true}, () => {
-                    Services.AuthHTTPRequest(logoutURL, 'PUT', body, function (response) {
+                    Services.AuthHTTPRequestForShiftFlow(logoutURL, 'PUT', body, function (response) {
                         if (response.status === 200) {
                             // console.log("logoutURL resp 200", response);
                             self.setState({spinnerBool: false})

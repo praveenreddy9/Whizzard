@@ -252,7 +252,7 @@ export default class CashClosure extends React.Component {
             size: 20
         };
         this.setState({spinnerBool: true}, () => {
-            Services.AuthHTTPRequest(apiURL, "POST", body, (response) => {
+            Services.AuthHTTPRequestForShiftFlow(apiURL, "POST", body, (response) => {
                 if (response.status === 200) {
                     let data = response.data;
                     // console.log('all created list resp200',data);
@@ -265,6 +265,7 @@ export default class CashClosure extends React.Component {
                         page:pageNo,searchData:searchData})
                 }
             }, (error) => {
+                console.log('##############first')
                 self.errorHandling(error)
             })
         });
@@ -326,6 +327,7 @@ export default class CashClosure extends React.Component {
 
                 }
             }, (error) => {
+                console.log('##############second')
                 self.errorHandling(error)
             })
         });
@@ -668,6 +670,7 @@ export default class CashClosure extends React.Component {
             }, (error) => {
                 // console.log('error in check User Location');
                 self.setState({submitPressed:false,saveButtonPressed:false})
+                console.log('##############third')
                 self.errorHandling(error)
             })
         });
@@ -690,6 +693,7 @@ export default class CashClosure extends React.Component {
                 }
             }, (error) => {
                 // console.log('error in selected details');
+                console.log('##############fourth')
                 self.errorHandling(error)
             })
         });
@@ -1060,6 +1064,7 @@ export default class CashClosure extends React.Component {
             }, (error) => {
                 // console.log('error in create cash closure');
                 self.setState({submitPressed:false,saveButtonPressed:false})
+                console.log('##############six')
                 self.errorHandling(error)
             })
         });
