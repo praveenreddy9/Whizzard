@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/fresh/duplicate/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
+            "outputFile": "/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-pa/values-pa.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/d1e1442acf262d249aef8fc181ca0445/transformed/jetified-play-services-basement-18.0.0/res/values-pa/values.xml",

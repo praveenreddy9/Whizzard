@@ -22,6 +22,7 @@ import Entypo from "react-native-vector-icons/dist/Entypo";
 import _ from "lodash";
 import AsyncStorage from "@react-native-community/async-storage";
 import {Picker} from '@react-native-picker/picker';
+import item from "react-native-calendars/src/calendar-list/item";
 
 export default class PendingUsersScreen extends Component {
     constructor(props) {
@@ -763,16 +764,18 @@ export default class PendingUsersScreen extends Component {
                                                                 {
                                                                     this.state.selectedUserDetails.missingFields.length > 0
                                                                         ?
-                                                                        <FlatList
-                                                                            data={this.state.selectedUserDetails.missingFields}
-                                                                            renderItem={({item}) => ( <TouchableOpacity
-                                                                                // disabled={userRole !== 45}
-                                                                                 onPress={()=>this.checkPendingListText(item)}
-                                                                                  style={[Styles.aslCenter, Styles.bw1, Styles.bcAsh, Styles.p10, Styles.marV5, {width: Dimensions.get('window').width - 95}]}>
-                                                                                <Text  style={[Styles.f14, Styles.ffMbold, Styles.aslCenter, Styles.colorBlue]}>{item}</Text>
-                                                                            </TouchableOpacity>)}
-                                                                            keyExtractor={(item, index) => index.toString()}
-                                                                        />
+                                                                        this.state.selectedUserDetails.missingFields.map((item,index)=>{
+                                                                            return(
+                                                                                <View key={index}>
+                                                                                    <TouchableOpacity
+                                                                                        // disabled={userRole !== 45}
+                                                                                        onPress={()=>this.checkPendingListText(item)}
+                                                                                        style={[Styles.aslCenter, Styles.bw1, Styles.bcAsh, Styles.p10, Styles.marV5, {width: Dimensions.get('window').width - 95}]}>
+                                                                                        <Text  style={[Styles.f14, Styles.ffMbold, Styles.aslCenter, Styles.colorBlue]}>{item}</Text>
+                                                                                    </TouchableOpacity>
+                                                                                </View>
+                                                                            )
+                                                                        })
                                                                         :
                                                                         <View  style={[Styles.aslCenter, Styles.p10, Styles.marV5, {width: Dimensions.get('window').width - 95}]}>
                                                                             <Text

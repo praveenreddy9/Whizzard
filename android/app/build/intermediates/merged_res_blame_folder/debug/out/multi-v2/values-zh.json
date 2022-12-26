@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/fresh/duplicate/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
+            "outputFile": "/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-zh/values-zh.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/dc89187141d1dc7954263f06cc582d9c/transformed/jetified-ucrop-2.2.5-native/res/values-zh/values-zh.xml",

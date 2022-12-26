@@ -199,6 +199,7 @@ export class ReimbursementExpenses extends Component {
 
     errorHandling(error) {
         const self = this;
+        console.log('expnse error',error,error.response)
         if (error.response) {
             if (error.response.status === 403) {
                 self.setState({spinnerBool: false});
@@ -274,7 +275,7 @@ export class ReimbursementExpenses extends Component {
                     self.setState({sitesFilterList: tempResponse, spinnerBool: false,})
                 }
             }, function (error) {
-                // console.log('get sites error', error, error.response, error.response.data);
+                console.log('get sites error', error, error.response, error.response.data);
                 self.errorHandling(error)
             })
         })
@@ -357,15 +358,13 @@ export class ReimbursementExpenses extends Component {
         const body = {};
         // console.log('get Business body', body, 'apiUrl===', apiUrl);
         this.setState({spinnerBool: true}, () => {
-            Services.AuthHTTPRequestForShiftFlow(apiUrl, 'GET', body, function (response) {
+            Services.AuthHTTPRequest(apiUrl, 'GET', body, function (response) {
                 if (response.status === 200) {
                     // console.log("get Business resp200", response);
                     self.setState({bussinessUnitList: response.data, spinnerBool: false})
                     self.getReimbursementTypes('Station', true)
                 }
             }, function (error) {
-                console.log('==============@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@bussiness units')
-
                 // console.log('get Business error', error, error.response, error.response.data);
                 self.errorHandling(error)
             })

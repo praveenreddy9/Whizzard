@@ -1178,18 +1178,23 @@ export default class NewPersonalScreen extends Component {
                             />
                         </Card>
                         <Card style={[Styles.mBtm15, Styles.ProfileScreenCardshadow]}
-                              onPress={() =>
-                                  RNAndroidLocationEnabler.promptForEnableLocationIfNeeded({
-                                      interval: 10000,
-                                      fastInterval: 5000
-                                  })
-                                      .then(data => {
-                                          this.setState({showAddressDropDwon: !this.state.showAddressDropDwon})
-                                      }).catch(err => {
-                                      // console.log('error code GPS check ', err, err.code);
-                                      Utils.dialogBox('GPS permissions denied', '');
-                                  })
-                              }>
+                              onPress={() => {
+                                  if (Platform.OS === 'ios') {
+                                      this.setState({showAddressDropDwon: !this.state.showAddressDropDwon})
+                                  } else {
+                                      RNAndroidLocationEnabler.promptForEnableLocationIfNeeded({
+                                          interval: 10000,
+                                          fastInterval: 5000
+                                      })
+                                          .then(data => {
+                                              this.setState({showAddressDropDwon: !this.state.showAddressDropDwon})
+                                          }).catch(err => {
+                                          // console.log('error code GPS check ', err, err.code);
+                                          Utils.dialogBox('GPS permissions denied', '');
+                                      })
+                                  }
+
+                              }}>
                             <Card.Title title="Address"
                                         titleStyle={[Styles.ffMbold, Styles.f18]}
                                         left={() => <MaterialCommunityIcons name="check-circle" size={32}

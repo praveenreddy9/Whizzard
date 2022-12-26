@@ -982,7 +982,7 @@ export default class HomeScreen extends React.Component {
                 {/*<HomeNoticeScreen/>*/}
                 <Appbar.Header style={[Styles.bgWhite]}>
                         <Appbar.Action icon="menu" size={30} onPress={() => {
-                            // this.props.navigation.openDrawer();
+                            this.props.navigation.openDrawer();
                         }}/>
                         <Appbar.Content title="" subtitle=""/>
                         <Appbar.Action icon="phone" size={25} onPress={() => {

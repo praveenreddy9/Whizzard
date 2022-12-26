@@ -700,7 +700,6 @@ const LoadSVG =
                     transform="translate(3179.819 3287.727)"
                     fill="#fff"
                     fontSize={19}
-                    fontFamily="Poppins-Regular,Poppins"
                 >
                     <TSpan x={0} y={0}>
                         {"?"}

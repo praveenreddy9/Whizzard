@@ -132,7 +132,7 @@ const DrawerNavigator = createDrawerNavigator(
 
 const AppStackNavigator = createStackNavigator(
   {
-    HomeScreen: HomeScreen,
+    HomeScreen: DrawerNavigator,
     Settings: Settings,
     Faqs: Faqs,
     Privacy: Privacy,

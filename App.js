@@ -22,7 +22,7 @@ const store = createStore(reducers, applyMiddleware(...middlewares));
 export default class App extends PureComponent {
   render() {
     // LogBox.ignoreAllLogs();
-    console.warn('HELLO PRaveen')
+    // console.warn('HELLO PRaveen')
     return (
       <Provider store={store}>
         <Router />

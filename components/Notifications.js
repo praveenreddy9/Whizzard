@@ -333,7 +333,7 @@ export class Notifications extends Component {
             size: 10
         };
         this.setState({spinnerBool: true}, () => {
-            Services.AuthHTTPRequest(apiUrl, 'POST', body, function (response) {
+            Services.AuthHTTPRequestForShiftFlow(apiUrl, 'POST', body, function (response) {
                 if (response.status === 200) {
                     // console.log("user Notifications resp200", response.data.content);
                     self.setState({

@@ -82,7 +82,7 @@ class MyTripsMapView extends React.Component {
                     const tripsList = response.data;
                     //tripsList.locations used for JAVA Api
                     //tripsList used for Node Api
-                    console.log("tripsdata locations length", tripsList.length);
+                    // console.log("tripsdata locations length", tripsList.length);
                     const coordinates = [];
                     const PolyLine = [];
                     // if (tripsList.locations) {
