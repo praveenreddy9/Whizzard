@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
+            "outputFile": "/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/build/intermediates/incremental/mergeDebugResources/merged.dir/values-v21/values-v21.xml",
             "map": [
                 {
                     "source": "/Users/apple/.gradle/caches/transforms-3/945f679d5066ec5cea4c418de5c0d6c7/transformed/media-1.0.0/res/values-v21/values-v21.xml",

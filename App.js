@@ -4,7 +4,7 @@ import {Provider} from 'react-redux';
 import thunk from 'redux-thunk';
 import {createLogger} from 'redux-logger';
 import Router from './Router';
-import reducers from '../Whizzard/components/Store/Reducers/index';
+import reducers from '../Whizzard-Mobile/components/Store/Reducers/index';
 import {LogBox} from 'react-native';
 import LoginScreen from './components/LoginScreen';
 
@@ -24,9 +24,9 @@ export default class App extends PureComponent {
     // LogBox.ignoreAllLogs();
     // console.warn('HELLO PRaveen')
     return (
-      <Provider store={store}>
-        <Router />
-      </Provider>
+        <Provider store={store}>
+          <Router />
+        </Provider>
         // <LoginScreen/>
     );
   }
