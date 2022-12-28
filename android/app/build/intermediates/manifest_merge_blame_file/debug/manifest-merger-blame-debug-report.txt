@@ -9,62 +9,62 @@
 9        android:targetSdkVersion="30" />
 10
 11    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" />
-11-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/debug/AndroidManifest.xml:5:5-77
-11-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/debug/AndroidManifest.xml:5:22-75
+11-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/debug/AndroidManifest.xml:5:5-77
+11-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/debug/AndroidManifest.xml:5:22-75
 12    <uses-permission android:name="android.permission.INTERNET" />
-12-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:4:5-67
-12-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:4:22-64
+12-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:4:5-67
+12-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:4:22-64
 13    <uses-permission android:name="android.permission.CAMERA" />
-13-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:5:5-65
-13-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:5:22-62
+13-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:5:5-65
+13-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:5:22-62
 14    <uses-permission android:name="android.permission.RECORD_AUDIO" />
-14-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:6:5-70
-14-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:6:22-68
+14-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:6:5-70
+14-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:6:22-68
 15    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
-15-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:7:5-80
-15-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:7:22-77
+15-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:7:5-80
+15-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:7:22-77
 16    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
-16-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:8:5-81
-16-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:8:22-78
+16-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:8:5-81
+16-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:8:22-78
 17    <uses-permission android:name="android.permission.DOWNLOAD_WITHOUT_NOTIFICATION" />
-17-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:9:5-88
-17-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:9:22-85
+17-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:9:5-88
+17-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:9:22-85
 18    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
-18-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:10:5-79
-18-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:10:22-76
+18-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:10:5-79
+18-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:10:22-76
 19    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
 19-->[com.facebook.flipper:flipper:0.99.0] /Users/apple/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:5-76
 19-->[com.facebook.flipper:flipper:0.99.0] /Users/apple/.gradle/caches/transforms-3/2f5725507f1929c6ddf8255f0bef77bd/transformed/jetified-flipper-0.99.0/AndroidManifest.xml:16:22-73
 20
 21    <uses-feature
-21-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
+21-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:11:5-13:36
 22        android:name="android.hardware.camera"
-22-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
+22-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:12:9-47
 23        android:required="false" />
-23-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
+23-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:13:9-33
 24    <uses-feature
-24-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
+24-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:14:5-16:36
 25        android:name="android.hardware.camera.autofocus"
-25-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
+25-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:15:9-57
 26        android:required="false" />
-26-->[:react-native-camera] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
+26-->[:react-native-camera] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-camera/android/build/intermediates/merged_manifest/generalDebug/AndroidManifest.xml:16:9-33
 27
 28    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
-28-->[:react-native-geolocation-service] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
-28-->[:react-native-geolocation-service] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
+28-->[:react-native-geolocation-service] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:5-81
+28-->[:react-native-geolocation-service] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:22-78
 29    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" /> <!-- Required to access Google Play Licensing -->
-29-->[:react-native-geolocation-service] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
-29-->[:react-native-geolocation-service] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
+29-->[:react-native-geolocation-service] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:5-79
+29-->[:react-native-geolocation-service] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-geolocation-service/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:22-76
 30    <uses-permission android:name="com.android.vending.CHECK_LICENSE" />
-30-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
-30-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
+30-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:5-73
+30-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:22-70
 31    <!--
 32         Required to keep CPU alive while downloading files
 33        (NOT to keep screen awake)
 34    -->
 35    <uses-permission android:name="android.permission.WAKE_LOCK" /> <!-- Required by older versions of Google Play services to create IID tokens -->
-35-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
-35-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
+35-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:5-68
+35-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:22-65
 36    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 36-->[com.google.android.gms:play-services-iid:17.0.0] /Users/apple/.gradle/caches/transforms-3/360b174c6295783246ac49d5c6b3bb69/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:5-82
 36-->[com.google.android.gms:play-services-iid:17.0.0] /Users/apple/.gradle/caches/transforms-3/360b174c6295783246ac49d5c6b3bb69/transformed/jetified-play-services-iid-17.0.0/AndroidManifest.xml:23:22-79
@@ -73,147 +73,147 @@
 37-->[com.android.installreferrer:installreferrer:1.1.2] /Users/apple/.gradle/caches/transforms-3/b405000ed9df6c4334c2e19438ddd7f0/transformed/jetified-installreferrer-1.1.2/AndroidManifest.xml:9:22-107
 38
 39    <application
-39-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:13:5-32:19
+39-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:13:5-32:19
 40        android:name="com.whizzard.MainApplication"
-40-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:14:7-38
+40-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:14:7-38
 41        android:allowBackup="false"
-41-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:18:7-34
+41-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:18:7-34
 42        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
 42-->[androidx.core:core:1.6.0] /Users/apple/.gradle/caches/transforms-3/5efa136d6b7a2c594211658eacead3c1/transformed/core-1.6.0/AndroidManifest.xml:24:18-86
 43        android:debuggable="true"
 44        android:icon="@mipmap/ic_launcher"
-44-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:16:7-41
+44-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:16:7-41
 45        android:label="@string/app_name"
-45-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:15:7-39
+45-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:15:7-39
 46        android:roundIcon="@mipmap/ic_launcher_round"
-46-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:17:7-52
+46-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:17:7-52
 47        android:testOnly="true"
 48        android:theme="@style/AppTheme"
-48-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:19:7-38
+48-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:19:7-38
 49        android:usesCleartextTraffic="true" >
-49-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/debug/AndroidManifest.xml:8:9-44
+49-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/debug/AndroidManifest.xml:8:9-44
 50        <activity android:name="com.facebook.react.devsupport.DevSettingsActivity" />
-50-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/debug/AndroidManifest.xml:11:9-86
-50-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/debug/AndroidManifest.xml:11:19-83
+50-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/debug/AndroidManifest.xml:11:9-86
+50-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/debug/AndroidManifest.xml:11:19-83
 51        <activity
-51-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:20:7-31:18
+51-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:20:7-31:18
 52            android:name="com.whizzard.MainActivity"
-52-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:21:9-37
+52-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:21:9-37
 53            android:configChanges="keyboard|keyboardHidden|orientation|screenSize|uiMode"
-53-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:23:9-86
+53-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:23:9-86
 54            android:label="@string/app_name"
-54-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:22:9-41
+54-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:22:9-41
 55            android:launchMode="singleTask"
-55-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:24:9-40
+55-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:24:9-40
 56            android:windowSoftInputMode="adjustResize" >
-56-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:25:9-51
+56-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:25:9-51
 57            <intent-filter>
-57-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:26:9-30:25
+57-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:26:9-30:25
 58                <action android:name="android.intent.action.MAIN" />
-58-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:27:13-65
-58-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:27:21-62
+58-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:27:13-65
+58-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:27:21-62
 59
 60                <category android:name="android.intent.category.LAUNCHER" />
-60-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:28:13-73
-60-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:28:23-70
+60-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:28:13-73
+60-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:28:23-70
 61
 62                <action android:name="android.intent.action.DOWNLOAD_COMPLETE" />
-62-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:29:13-77
-62-->/Users/apple/Desktop/GIT-Whizzard/Whizzard/android/app/src/main/AndroidManifest.xml:29:21-75
+62-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:29:13-77
+62-->/Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/android/app/src/main/AndroidManifest.xml:29:21-75
 63            </intent-filter>
 64        </activity>
 65
 66        <receiver
-66-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
+66-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:9-19:20
 67            android:name="com.learnium.RNDeviceInfo.RNDeviceReceiver"
-67-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-70
+67-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-70
 68            android:enabled="true"
-68-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
+68-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-35
 69            android:exported="true" >
-69-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-36
+69-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-36
 70            <intent-filter>
-70-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:29
+70-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-18:29
 71                <action android:name="com.android.vending.INSTALL_REFERRER" />
-71-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-79
-71-->[:react-native-device-info] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-76
+71-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-79
+71-->[:react-native-device-info] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-device-info/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:25-76
 72            </intent-filter>
 73        </receiver>
 74
 75        <provider
-75-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-20:20
+75-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:9-20:20
 76            android:name="androidx.core.content.FileProvider"
-76-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-62
+76-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-62
 77            android:authorities="com.whizzard.provider"
-77-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-60
+77-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-60
 78            android:exported="false"
-78-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
+78-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-37
 79            android:grantUriPermissions="true" >
-79-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-47
+79-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:16:13-47
 80            <meta-data
-80-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
+80-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
 81                android:name="android.support.FILE_PROVIDER_PATHS"
-81-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+81-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
 82                android:resource="@xml/provider_paths" />
-82-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
+82-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
 83        </provider>
 84
 85        <activity
-85-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-24:72
+85-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:22:9-24:72
 86            android:name="com.yalantis.ucrop.UCropActivity"
-86-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-60
+86-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:23:13-60
 87            android:theme="@style/Theme.AppCompat.Light.NoActionBar" />
-87-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
+87-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:24:13-69
 88
 89        <provider
-89-->[:react-native-image-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+89-->[:react-native-image-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 90            android:name="com.imagepicker.ImagePickerProvider"
-90-->[:react-native-image-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
+90-->[:react-native-image-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-63
 91            android:authorities="com.whizzard.imagepickerprovider"
-91-->[:react-native-image-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
+91-->[:react-native-image-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-71
 92            android:exported="false"
-92-->[:react-native-image-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+92-->[:react-native-image-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 93            android:grantUriPermissions="true" >
-93-->[:react-native-image-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+93-->[:react-native-image-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 94            <meta-data
-94-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
+94-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
 95                android:name="android.support.FILE_PROVIDER_PATHS"
-95-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+95-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
 96                android:resource="@xml/imagepicker_provider_paths" />
-96-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
+96-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
 97        </provider>
 98        <provider
-98-->[:react-native-webview] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+98-->[:react-native-webview] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 99            android:name="com.reactnativecommunity.webview.RNCWebViewFileProvider"
-99-->[:react-native-webview] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
+99-->[:react-native-webview] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-83
 100            android:authorities="com.whizzard.fileprovider"
-100-->[:react-native-webview] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
+100-->[:react-native-webview] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-64
 101            android:exported="false"
-101-->[:react-native-webview] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+101-->[:react-native-webview] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 102            android:grantUriPermissions="true" >
-102-->[:react-native-webview] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+102-->[:react-native-webview] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-webview/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 103            <meta-data
-103-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
+103-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
 104                android:name="android.support.FILE_PROVIDER_PATHS"
-104-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+104-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
 105                android:resource="@xml/file_provider_paths" />
-105-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
+105-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
 106        </provider>
 107        <provider
-107-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
+107-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:34:9-42:20
 108            android:name="com.RNFetchBlob.Utils.FileProvider"
-108-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
+108-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:35:13-62
 109            android:authorities="com.whizzard.provider"
-109-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
+109-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:36:13-60
 110            android:exported="false"
-110-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
+110-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:37:13-37
 111            android:grantUriPermissions="true" >
-111-->[:rn-fetch-blob] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
+111-->[:rn-fetch-blob] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/rn-fetch-blob/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:38:13-47
 112            <meta-data
-112-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
+112-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:17:13-19:58
 113                android:name="android.support.FILE_PROVIDER_PATHS"
-113-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
+113-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:18:17-67
 114                android:resource="@xml/provider_paths" />
-114-->[:react-native-image-crop-picker] /Users/apple/Desktop/GIT-Whizzard/Whizzard/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
+114-->[:react-native-image-crop-picker] /Users/apple/Desktop/fresh/GIT-Clone/Whizzard-Mobile/node_modules/react-native-image-crop-picker/android/build/intermediates/merged_manifest/debug/AndroidManifest.xml:19:17-55
 115        </provider>
 116
 117        <meta-data
